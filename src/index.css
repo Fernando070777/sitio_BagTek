@@ -17,9 +17,17 @@ body {
   height: 700px;
   font-weight: 700px;
   
-
-
 }
+
+.boton{
+  background: rgba(255, 255, 255, 0.023);
+  backdrop-filter: blur(100px);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  height: 300px;
+  width: 400px;
+}
+
 
 .clase2 {
   background: linear-gradient(0deg,  #36144c 0% , 25%,  #2a4e82  100%);

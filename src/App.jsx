@@ -25,7 +25,7 @@ function App() {
       <div className='#login'>
         <h1>Panel de Monitoreo en Fedora</h1>
         <p style={{ fontSize: '24px' }}>Uso de CPU simulado: <strong>{cpu}%</strong></p>
-        <button onClick={simularMetrica} style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
+        <button className='boton' onClick={simularMetrica} style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
           Enviar nueva métrica
         </button>
       </div>
