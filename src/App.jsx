@@ -12,7 +12,7 @@ function App() {
     return onValue(cpuRef, (snapshot) => {
       setCpu(snapshot.val() || 0);
     });
-  }, []);
+  }, []); 
 
   // Guarda una nueva métrica simulada en Firebase
   const simularMetrica = () => {
