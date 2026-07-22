@@ -9,11 +9,11 @@ return(
       </div>
       <div>
         <h2>Usuario</h2>
-        <input type="text" />
+        <input className='input1' type="text" />
       </div>
       <div>
         <h2>Password</h2>
-        <input type="text" />
+        <input className='input1' type="text" />
       </div>
     </section>
 

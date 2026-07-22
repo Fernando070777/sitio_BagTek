@@ -34,7 +34,7 @@ function App() {
         <div>
           <h1>Holaaaa</h1>
           <a href="login_">Clase 1</a>
-        </div>/*
+        </div>
 
         <div>
           <Login/>
