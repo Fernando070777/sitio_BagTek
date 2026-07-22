@@ -1,13 +1,15 @@
 import React from "react";
 
-function login() {
-
+function Login() {
 
 return(
-<section className='._login'>
-      <div className='#login'>
-        <h1>INICIO DE SESION</h1>
-       
+<section className='login_prueba'>
+      <div>
+        <h1>INICIO DE SESION</h1>       
+      </div>
+      <div>
+        <h2>Usuario</h2>
+        <input type="text" />
       </div>
     </section>
 

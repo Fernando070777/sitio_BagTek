@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { database } from './firebase';
 import { ref, set, onValue } from 'firebase/database';
+/*import Login from './login';*/
 
 function App() {
   const [cpu, setCpu] = useState(0);
@@ -34,6 +35,10 @@ function App() {
           <h1>Holaaaa</h1>
           <a href="login_">Clase 1</a>
         </div>
+                <div>
+              <Login/>
+        </div>
+
       </section></>    
   );
 
