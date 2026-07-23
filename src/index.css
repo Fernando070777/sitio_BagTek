@@ -23,14 +23,14 @@ body {
   backdrop-filter: blur(100px);
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 12px;
-  height: 300px;
-  width: 400px;
+  height: 100px;
+  width: 250px;
 
 }
 
 
 .clase2 {
-  background: linear-gradient(0deg,  #36144c 0% , 25%,  #2a4e82  100%);
+  background: linear-gradient(28deg,  #007c59 0% , 30%,  #083248  100%);
   /*border: 10px, solid black;*/
   height: 700px;
   font-weight: 700px;
@@ -106,4 +106,16 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.input1 {
+  background: #ffffff00;
+  backdrop-filter: blur(150px);
+  border: 1px solid #00000022;
+  border-radius: 20px;
+  height: 50px;
+  width: 250px;
+
+}
+
+
 
