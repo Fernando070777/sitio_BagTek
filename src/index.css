@@ -68,9 +68,9 @@ body {
 
 h1,
 h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #0f172a;
 }
 
 h1 {
