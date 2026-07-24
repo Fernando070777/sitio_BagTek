@@ -1,6 +1,8 @@
 body {
   margin: 0;
   scroll-behavior: smooth;
+  justify-content: center;
+  align-items: center;
 }
 
 .login_ {
@@ -102,6 +104,7 @@ code,
   display: inline-flex;
   border-radius: 4px;
   color: var(--text-h);
+  text-align: center;
 }
 
 code {

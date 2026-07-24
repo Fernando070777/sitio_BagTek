@@ -32,8 +32,8 @@ function App() {
       </div>
     </section><section className='clase2'>
         <div>
-          <h1>Holaaaa</h1>
-          <a href="login_">Clase 1</a>
+          <h1></h1>
+          <a href="login_"></a>
         </div>
 
         <div>
