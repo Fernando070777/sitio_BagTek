@@ -13,7 +13,7 @@ return(
       </div>
       <div>
         <h2>Password</h2>
-        <input className='input1' type="text" />
+        <input className='input1' type="password" />
       </div>
     </section>
 
