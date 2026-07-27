@@ -126,3 +126,18 @@ code {
 
 
 
+.prueba {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-width: 100vh;
+   margin: 0;
+}
+
+.prueba1 {
+  text-align: center;
+
+}
+
+
+
