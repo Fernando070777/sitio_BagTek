@@ -5,6 +5,7 @@ import Login from './login';
 
 function App() {
   const [cpu, setCpu] = useState(0);
+  const [logueado, setLogueado] = useState(false);
 
   // Escucha los cambios en tiempo real desde Firebase
   useEffect(() => {
@@ -19,6 +20,10 @@ function App() {
     const nuevoValor = Math.floor(Math.random() * 100);
     set(ref(database, 'sistema/cpu'), nuevoValor);
   };
+
+  if (!logueado) {
+    return <Login onLogin= {() => setLogueado(true)} />;
+  }
 
   return (
 
