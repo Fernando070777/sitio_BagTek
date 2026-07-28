@@ -1,7 +1,7 @@
 import { exp } from "firebase/firestore/pipelines";
 
 
-function Login() {
+function Login({onLogin}) {
  
 return(
 <section className='login_prueba'>
@@ -16,10 +16,12 @@ return(
       
         <h2>Password</h2>
         <input className='input1' type="password" />
-
+         
         
-      
       </div>
+       <button className="boton" onClick={onLogin}>
+         Iniciar Sesión 
+       </button>
       </div>
     </section>
 
