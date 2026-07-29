@@ -114,7 +114,12 @@ code {
   border-radius: 20px;
   height: 50px;
   width: 250px;
+}
 
+.login_prueba{
+  backdrop-filter: blur(150px);
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 
