@@ -1,6 +1,8 @@
 body {
   margin: 0;
   scroll-behavior: smooth;
+  justify-content: center;
+  align-items: center;
 }
 
 .login_ {
@@ -19,12 +21,13 @@ body {
 }
 
 .boton{
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 15);
   backdrop-filter: blur(100px);
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 12px;
+  border-radius: 15px;
   height: 100px;
   width: 250px;
+  color: white;
 
 }
 
@@ -56,10 +59,10 @@ html{
 
 h1,
 h2 {
-  font-family: var(--heading);
-  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   /*color: var(--text-h);*/
-  color:black;
+  color:#f8fafc;
 }
 
 h1 {
@@ -73,10 +76,11 @@ h1 {
 }
 h2 {
   font-size: 24px;
+  color: #e2e8f0;
   line-height: 118%;
   letter-spacing: -0.24px;
   margin: 0 0 8px;
-  @media (max-width: 1024px) {
+  @media (max-width: 24px) {
     font-size: 20px;
   }
 }
@@ -88,6 +92,8 @@ h3 {
 
   font-size: 20px;
   text-align: left;
+  color:#ffffff;
+  font-weight:600;
 
 }
 
@@ -98,6 +104,7 @@ code,
   display: inline-flex;
   border-radius: 4px;
   color: var(--text-h);
+  text-align: center;
 }
 
 code {
@@ -110,7 +117,7 @@ code {
 .input1 {
   background: #ffffff00;
   backdrop-filter: blur(150px);
-  border: 1px solid #00000022;
+  border: 1px solid #79747422;
   border-radius: 20px;
   height: 50px;
   width: 250px;
@@ -120,6 +127,21 @@ code {
   backdrop-filter: blur(150px);
   border: 2px solid black;
   border-radius: 10px;
+}
+
+
+
+.prueba {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-width: 100vh;
+   margin: 0;
+}
+
+.prueba1 {
+  text-align: center;
+
 }
 
 

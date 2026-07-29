@@ -5,6 +5,7 @@ import Login from './login';
 
 function App() {
   const [cpu, setCpu] = useState(0);
+  const [logueado, setLogueado] = useState(false);
 
   // Escucha los cambios en tiempo real desde Firebase
   useEffect(() => {
@@ -20,6 +21,10 @@ function App() {
     set(ref(database, 'sistema/cpu'), nuevoValor);
   };
 
+  if (!logueado) {
+    return <Login onLogin= {() => setLogueado(true)} />;
+  }
+
   return (
 
     <><section className='login_'>
@@ -32,8 +37,8 @@ function App() {
       </div>
     </section><section className='clase2'>
         <div>
-          <h1>Holaaaa</h1>
-          <a href="login_">Clase 1</a>
+          <h1></h1>
+          <a href="login_"></a>
         </div>
 
         <div>
